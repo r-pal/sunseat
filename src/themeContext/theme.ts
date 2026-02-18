@@ -1,12 +1,12 @@
 import { createTheme } from "@mui/material";
-import { purple } from "@mui/material/colors";
+import { green, purple } from "@mui/material/colors";
 import type { Theme } from "@mui/material/styles";
 
 export const AppLightTheme: Theme = createTheme({
   palette: {
     background: {
-      default: purple[500],
-      paper: purple[200],
+      default: green[500],
+      paper: green[200],
     },
   },
 });
