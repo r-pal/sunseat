@@ -1,7 +1,7 @@
 export enum IThemeMode {
-  Light = "light",
-  Dark = "dark",
-  System = "system",
+  Light = "Light",
+  Dark = "Dark",
+  System = "System",
 }
 
 export interface IThemeContext {

@@ -1,7 +1,7 @@
 import Palette from "@mui/icons-material/Palette";
 import { Button, Menu, MenuItem } from "@mui/material";
 import { useContext, useRef, useState } from "react";
-import { ThemeContext } from "../themeContext";
+import { ThemeContext } from "../themeContext/context";
 import { IThemeMode, type IThemeContext } from "../themeContext/types";
 
 const ThemeSwitcher: React.FC = () => {
@@ -20,7 +20,6 @@ const ThemeSwitcher: React.FC = () => {
   };
 
   const handleSwitchTheme = (mode: IThemeMode) => {
-    console.log(mode, "switch");
     switchThemeMode(mode);
     handleClose();
   };

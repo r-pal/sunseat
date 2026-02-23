@@ -4,6 +4,7 @@ import type { Theme } from "@mui/material/styles";
 
 export const AppLightTheme: Theme = createTheme({
   palette: {
+    mode: "light",
     background: {
       default: green[500],
       paper: green[200],
