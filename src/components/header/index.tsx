@@ -7,6 +7,7 @@ export const Header: React.FC = () => {
   return (
     <Grid className={classes.header}>
       <Title>Sun-Seat</Title>
+      <img src="/sun.svg" height="20px" />
       <SubTitle>Get sat right</SubTitle>
     </Grid>
   );

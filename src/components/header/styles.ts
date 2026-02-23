@@ -19,8 +19,10 @@ export const SubTitle = styled("div")(({ theme }) => ({
 export const useStyles = makeStyles()((theme) => ({
   header: {
     backgroundColor: theme.palette.background.paper,
-    height: 24,
     position: "fixed",
     top: 0,
+    display: "flex",
+    gap: 4,
+    paddingInline: 4,
   },
 }));

@@ -1,8 +1,17 @@
 import { createTheme } from "@mui/material";
-import { green, purple } from "@mui/material/colors";
+import { green, purple, red } from "@mui/material/colors";
 import type { Theme } from "@mui/material/styles";
 
 export const AppLightTheme: Theme = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          background: red[500],
+        },
+      },
+    },
+  },
   palette: {
     mode: "light",
     background: {
@@ -13,6 +22,15 @@ export const AppLightTheme: Theme = createTheme({
 });
 
 export const AppDarkTheme: Theme = createTheme({
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          background: red[500],
+        },
+      },
+    },
+  },
   palette: {
     mode: "dark",
     background: {
